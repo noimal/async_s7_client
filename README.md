@@ -1,6 +1,6 @@
 # Asynchronous Siemens S7 Client Library For .Net
 
-![Nuget Total Downloads](https://buildstats.info/nuget/async_s7_client)
+[![Nuget Total Downloads](https://buildstats.info/nuget/async_s7_client)](https://www.nuget.org/packages/async_s7_client)
 
 ## Overview
 async_s7_client is a simple, fast and asynchronous .Net library which communicates with Siemens S7 devices using Siemens S7 Protocol.
