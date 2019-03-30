@@ -5,7 +5,7 @@
 ## Overview
 async_s7_client is a simple, fast and asynchronous .Net library which communicates with Siemens S7 devices using Siemens S7 Protocol.
 
-s7client is the asynchronous version of [s7_client](https://github.com/ermanimer/s7_client) and it is designed to be used with Windows Forms Applications without blocking the UI Thread.
+async_s7_client is the asynchronous version of [s7_client](https://github.com/ermanimer/s7_client) and it is designed to be used with Windows Forms Applications without blocking the UI Thread.
 
 ## PLC Settings For Data Access
 * **S7 300, S7 400**: Default settings allow full access for these cpus.
