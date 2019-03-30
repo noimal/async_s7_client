@@ -121,7 +121,7 @@ namespace async_s7_client {
             }
         }
 
-        public Task<bool> Close() {
+        public bool Close() {
             if(Busy) {
                 throw new S7ClientException(9, "S7Client is busy.");
             }
@@ -132,7 +132,7 @@ namespace async_s7_client {
                 tcpClient.Close();
             }
             Connected = false;
-            return Task.FromResult(!(Connected = false));
+            return !(Connected = false);
         }
 
         public async Task<byte[]> ReadAsync(ushort dataBlockNumber, uint startingAddress, ushort byteCount) {
