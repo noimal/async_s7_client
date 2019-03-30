@@ -89,10 +89,10 @@ Download the latest release from [here](https://github.com/ermanimer/async_s7_cl
     Disposes the tcp client instance and requests that the underlying tcp connection be closed. Returns a bool indicating whether the task is successfully completed.
     * ##### Example:
         ```c#
-        private async void buttonClose_Click(object sender, EventArgs e) {
+        private void buttonClose_Click(object sender, EventArgs e) {
             try {
                 //close s7 client
-                bool result = await Task.Run(s7Client.Close);
+                bool result = s7Client.Close();
 
                 //print result
                 Debug.WriteLine(result.ToString());
